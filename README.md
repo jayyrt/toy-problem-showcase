@@ -210,7 +210,7 @@ Creating a React component:
 * `import React, { Component } from 'react'`
 * Create the class for your new component. The format is: `class ClassNameGoesHere extends Component {}`
 * Use the `render() {}` method to get elements to `render` onto the DOM. JSX goes inside a `return` statement of the `render() {}` method.
-* Export your newly created class either on the same line of it's declaration or at the bottom of the file.
+* Export your newly created class either  on the same line of it's declaration or at the bottom of the file.
 
 Here is what the `EvenAndOdd` component will look like applying these bullet points.
 
