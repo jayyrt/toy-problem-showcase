@@ -18,6 +18,7 @@ export default class EvenAndOdd extends Component{
 
     onClick(){
         this.setState({ })
+    }
 
     assignEvenAndOdds(userInput){
         let arr = userInput.split(',');

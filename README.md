@@ -737,7 +737,7 @@ Let's begin by rendering our component's outline.
   }
 ```
 
-Now that we have a rough draft of everything our component will need, let's start filling in the functionality. We will use state to keep tracck of what the user input is, our unfiltered array, and our filtered array.
+Now that we have a rough draft of everything our component will need, let's start filling in the functionality. We will use state to keep track of what the user input is, our unfiltered array, and our filtered array.
 
 ```js
   constructor() {
@@ -773,7 +773,7 @@ Next let's update our `span` elements to display our unfiltered and filtered arr
   render() {
     return (
       <div className="puzzleBox filterObjectPB">
-        <h4> Filter Object </h4>
+        <h4> Filter Object </h4> 
         <span className="puzzleText"> Original: { JSON.stringify(this.state.employees, null, 10) } </span>
         <input className="inputLine"/>
         <button className="confirmationButton"> Filter </button>
