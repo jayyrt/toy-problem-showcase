@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import TopicBrowser from './TopicBrowser';
+import TopicBrowser from './components/TopicBrowser/TopicBrowser';
 
 class App extends Component {
   render() {

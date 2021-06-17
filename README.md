@@ -119,7 +119,6 @@ Both ways are completely fine, however I'll be using the same line `export`. Now
 ```js
 import TopicBrowser from './components/TopicBrowser/TopicBrowser'
 ```
-
 The `import` is clever enough to add on the `.js` extension for us. Now that `src/components/App.js` has `TopicBrowser` imported we can `render` it the same way rendered our `<p>` element in `TopicBrowser`. The only differencing being to `render` components you wrap the component name in `< />`. Our `src/components/App.js` should now look like:
 
 ```js
