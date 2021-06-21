@@ -5,11 +5,11 @@ export default class FilterString extends Component{
         super();
 
         this.state = {
-            unfilteredArray: [Kenia, Adrian, Cesar, Carolina, Aksel, Hector, Alma, Luna],
+            unfilteredArray: [],
             userInput: '',
             filteredArray: []
-        }
-    };
+        };
+    }
 
     handleChange(val) {
         this.setState({ userInput: val });
@@ -25,7 +25,7 @@ export default class FilterString extends Component{
       }
     }
 
-    this.setState({ filteredNames: filteredNames });
+    this.setState({ filteredArray: filteredArray });
 }
 
     render() {
